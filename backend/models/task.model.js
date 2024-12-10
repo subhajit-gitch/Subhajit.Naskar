@@ -21,14 +21,3 @@ const taskSchema = new mongoose.Schema({
 module.exports = mongoose.model("Task", taskSchema);
 
 console.log("Task model is ready to use");
-
-
-
-// {
-//     title: String, // Required, max 100 characters
-//     description: String, // Optional
-//     status: String, // Enum: ['TODO', 'IN_PROGRESS', 'COMPLETED']
-//     priority: String, // Enum: ['LOW', 'MEDIUM', 'HIGH']
-//     dueDate: Date // Optional
-//   }
-  
