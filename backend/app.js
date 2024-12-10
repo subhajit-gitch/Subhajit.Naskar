@@ -38,13 +38,3 @@ console.log("app.js is ready to use");
 // PUT: api/tasks/:id
 // DELETE: api/tasks/:id
 
-// {
-//     "title": "Learn Node.js",
-//     "description": "Complete tutorials and build a project",
-//     "priority": "HIGH",
-//     "status": "TODO",
-//     "dueDate": "2024-12-15T00:00:00Z"
-// }
-
-// curl -X PUT http://localhost:3000/api/tasks/<task_id> -H "Content-Type: application/json" -d '{"status": "completed"}'
-// curl -X POST http://localhost:3000/api/tasks -H "Content-Type: application/json" -d '{"title": "New Task", "status": "pending", "priority": "medium"}'
