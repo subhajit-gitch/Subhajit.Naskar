@@ -29,8 +29,6 @@ console.log("Task model is ready to use");
 //     description: String, // Optional
 //     status: String, // Enum: ['TODO', 'IN_PROGRESS', 'COMPLETED']
 //     priority: String, // Enum: ['LOW', 'MEDIUM', 'HIGH']
-//     dueDate: Date, // Optional
-//     createdAt: Date,
-//     updatedAt: Date
+//     dueDate: Date // Optional
 //   }
   
